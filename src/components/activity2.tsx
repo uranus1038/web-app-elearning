@@ -104,7 +104,7 @@ export const ActivityInfo2: FC = () => {
                                                 <Timeline.Point />
                                                 <Timeline.Content>
                                                     <Timeline.Time>24 มกราคม 2567 เวลา 06.30 น</Timeline.Time>
-                                                    <Timeline.Title>เริ่มต้น</Timeline.Title>
+                                                    <Timeline.Title>เริ่มต้นกิจกรรม</Timeline.Title>
                                                     <Timeline.Body>
                                                         รวมตัวกันที่แม็กซ์ แวลู นวมินทร์ เพื่อเช็คชื่อขึ้นรถ
                                                     </Timeline.Body>

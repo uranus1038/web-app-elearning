@@ -12,6 +12,7 @@ import { TableLeaning } from './components/tableLeaning';
 import { ActivityInfo1 } from './components/activity1';
 import { ActivityInfo2 } from './components/activity2';
 import { ActivityInfo3 } from './components/activity3';
+import { ActivityInfo4 } from './components/activity4';
 const App: FC = () => {
   const [count, setCount] = useState(0)
   const [isFadeIndex, isSetFadeIndex] = useState(false)
@@ -40,6 +41,7 @@ const App: FC = () => {
           <Route path="/activity/1" element={<ActivityInfo1 />} />
           <Route path="/activity/2" element={<ActivityInfo2 />} />
           <Route path="/activity/3" element={<ActivityInfo3 />} />
+          <Route path="/activity/4" element={<ActivityInfo4 />} />
           <Route path="/activity/calendar" element={<CalendarActivity/>} />
           <Route path="/table/learning" element={<TableLeaning/>} />
           <Route path="*" element={<Navigate to="/" />} />

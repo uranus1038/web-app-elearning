@@ -86,11 +86,36 @@ export const ActivityInfo3: FC = () => {
                                         </p>
                                     </Accordion.Content>
                                 </Accordion.Panel>
+                                <Accordion.Panel>
+                                    <Accordion.Title className='font-semibold'>นัดหมาย</Accordion.Title>
+                                    <Accordion.Content>
+                                        <Timeline>
+                                            <Timeline.Item>
+                                                <Timeline.Point />
+                                                <Timeline.Content>
+                                                    <Timeline.Time>28 ธันวาคม 2566 เวลา 06.00น</Timeline.Time>
+                                                    <Timeline.Title>เริ่มต้นกิจกรรม</Timeline.Title>
+                                                    <Timeline.Body>
+                                                        สามารถบริจาคของได้ที่ ศกร.เขตบึงกุ่ม คะแนนที่ได้100บาท=10ชม(สูงสุด50ชม) ให้เตรียมใบเสร็จมาด้วย
+                                                    </Timeline.Body>
+
+                                                </Timeline.Content>
+                                            </Timeline.Item>
+                                            <Timeline.Item>
+                                                <Timeline.Point />
+                                                <Timeline.Content>
+                                                    <Timeline.Time>8 มกราคม 2567 เวลา 15.00น</Timeline.Time>
+                                                    <Timeline.Title>สิ้นสุดกิจกรรม</Timeline.Title>
+                                                </Timeline.Content>
+                                            </Timeline.Item>
+                                        </Timeline>
+                                    </Accordion.Content>
+                                </Accordion.Panel>
+
                             </Accordion>
-                            <div className="grid  gap-4 mt-3">
-                                    <img className="h-full w-full rounded-lg" src="https://moe360blog.files.wordpress.com/2024/01/e0b8a7e0b8b1e0b899e0b980e0b894e0b987e0b881e0b981e0b8abe0b988e0b887e0b88ae0b8b2e0b895e0b8b4.jpg?w=1400" alt="" />
-                                <div>
-                                </div>
+                            <div className="">
+                                <img className="h-full w-full rounded-b-lg" src="https://moe360blog.files.wordpress.com/2024/01/e0b8a7e0b8b1e0b899e0b980e0b894e0b987e0b881e0b981e0b8abe0b988e0b887e0b88ae0b8b2e0b895e0b8b4.jpg?w=1400" alt="" />
+
                             </div>
                         </div>
 

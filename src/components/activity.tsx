@@ -55,16 +55,16 @@ export const Activity: FC = () => {
                                 <Badge className='inline-flex  mb-3' color="warning" size={"xs"}>13-ม.ค.-2567</Badge>
                             </div>
                         </Link>
-                        <div className='start-col-2 relative slide-move-up-3'>
+                        <Link to={"/activity/4"} className='start-col-2 relative slide-move-up-3'>
                             <img src={img3} alt="img 3" loading="lazy" className='start-col-2 rounded-lg sm:h-full h-60 w-full  object-cover' />
                             <div className='absolute w-full text-center h-24 bottom-0 rounded-lg bg-gradient-to-t from-yellow-300 font-semibold text-white'>
                                 
                             </div>
                             <div className='absolute w-full text-center   bottom-0 rounded-lg  font-semibold '>
-                            <h6 className='text-white text-sm' >"โครงการจิตอาสาอบรมการปฐมพยาบาล"</h6>
+                            <h6 className='text-white text-sm' >"โครงการจิตอาสาอบรมการปฐมพยาบาลเบื้องต้น"</h6>
                                 <Badge className='inline-flex mb-3 ' color="warning" size={"xs"}>3-ก.พ.2567</Badge>
                             </div>
-                        </div>
+                        </Link>
                         <div className='start-col-3 relative slide-move-up-2 h-auto'>
                             <img src={img4} alt="img 3" loading="lazy" className='start-col-2 rounded-lg sm:h-full h-60 w-full  object-cover' />
                             <div className='absolute w-full text-center h-24  bottom-0 rounded-lg bg-gradient-to-t   from-blue-500 font-semibold text-white'>
