@@ -182,10 +182,8 @@ export const ActivityInfo4: FC = () => {
                             </Accordion>
                             <iframe className='h-72 w-full rounded-b-lg' src="https://www.youtube.com/embed/-kwwfPkQbIc?si=Ymuai6RxM21xTVAf" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         </div>
-
                     </div>
-
-                </div>
+                 </div>
                 <BottomNavigation />
             </div>
         </div>

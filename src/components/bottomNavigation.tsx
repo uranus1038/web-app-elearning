@@ -23,10 +23,10 @@ export const BottomNavigation: FC = () => {
                     <FaTable className="w-4 h-4  text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500" />
                     <span className="truncate text-xs text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500">ตารางเรียน</span>
                 </Link>
-                <button type="button" className="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group">
+                <Link to={"/bookmark"} type="button" className="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group">
                     <FaBookmark className="w-4 h-4  text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500" />
                     <span className="truncate text-xs text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500">บุ๊คมาร์ค</span>
-                </button>
+                </Link>
             </div>
         </div>
 

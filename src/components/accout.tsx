@@ -58,6 +58,33 @@ export const Accout: FC = () => {
         })
         LinkRoute("/user");
     }
+    const onLogout = () => {
+       
+       
+        Swal.fire({
+            title: "คุณแน่ใจที่จะออกจากระบบ ?",
+            icon: "warning",
+            confirmButtonText: "ตกลง" ,
+            cancelButtonText: "ยกเลิก" ,
+            showCancelButton: true ,
+
+        }).then((r)=>
+        {
+            if(r.isConfirmed)
+            {
+                if (storedObjectString) {
+                    localStorage.removeItem('userData');
+                }
+                LinkRoute("/user");
+                Swal.fire({
+                    title: "ออกจากระบบเสร็จสิ้น",
+                    text: '"เราหวังว่าคุณจะได้รับความรู้จากแอพพลิเคชั่นของเราอย่างเต็มที่ หากมีข้อสงสัยในการบริการสามารถติดต่อฝ่ายบริการได้ของเราได้ทุกช่องทาง"',
+                    icon: "success",
+                    confirmButtonText: "ตกลง" ,
+                })
+            }
+        })
+    }
     const isAlert = () => {
         if(storedObjectString)
         {
@@ -95,12 +122,12 @@ export const Accout: FC = () => {
                         <div className='flex w-full'>
                             {
                                 isCheck ?
-                                    <Button onClick={() => { onCreate() }} color={"blue"} className='mt-3'>อัปเดตผู้ใช้งาน</Button>
+                                    <Button onClick={() => { onCreate() }} color={"blue"} className='mt-3 w-full'><FaPaperPlane className='me-2' />อัปเดตผู้ใช้งาน</Button>
                                     :
                                     <Button disabled color={"blue"} className='mt-3 w-full truncate'><FaPaperPlane className='me-2' />อัปเดตผู้ใช้งาน</Button>
 
                             }
-                            <Button onClick={() => { onCreate() }} color={"gray"} className='mt-3 ms-3 w-full truncate'><FaArrowRightFromBracket className='me-2'/>ออกจากระบบ</Button>
+                            <Button onClick={() => { onLogout() }} color={"gray"} className='mt-3 ms-3 w-full truncate'><FaArrowRightFromBracket className='me-2'/>ออกจากระบบ</Button>
                         </div>
                     </div>
                 </div>

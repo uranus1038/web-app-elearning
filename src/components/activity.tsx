@@ -21,7 +21,10 @@ export const Activity: FC = () => {
                         LinkRoute("/");
                     }} color="gray" theme={{ color: { "gray": "text-gray-900 bg-white border border-gray-200 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 :ring-cyan-700 focus:text-cyan-700 dark:bg-gray-700   dark:text-gray-300 dark:border-none dark:enabled:hover:text-white dark:enabled:hover:bg-gray-700 focus:ring-4" } }} size={"md"} className='w-full ms-3 me-3'>การเรียนรู้</Button>
                     <Button gradientDuoTone={"purpleToPink"} color='gray' size={"md"} className='w-full me-3'>กิจกรรม</Button>
-                    <Button theme={{ color: { "gray": "text-gray-900 bg-white border border-gray-200 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 :ring-cyan-700 focus:text-cyan-700 dark:bg-gray-700   dark:text-gray-300 dark:border-none dark:enabled:hover:text-white dark:enabled:hover:bg-gray-700 focus:ring-4" } }} color='gray' size={"md"} className='w-full me-3'>แบบฝึกหัด</Button>
+                    <Button onClick={()=>
+                    {
+                        LinkRoute("/user/test");
+                    }} theme={{ color: { "gray": "text-gray-900 bg-white border border-gray-200 enabled:hover:bg-gray-100 enabled:hover:text-cyan-700 :ring-cyan-700 focus:text-cyan-700 dark:bg-gray-700   dark:text-gray-300 dark:border-none dark:enabled:hover:text-white dark:enabled:hover:bg-gray-700 focus:ring-4" } }} color='gray' size={"md"} className='w-full me-3'>แบบฝึกหัด</Button>
                 </div>
                 <div className='sm:mb-12'>
                     <div className='grid grid-cols-3 gap-1 w-full h-full  p-3 slide-move-up-1'>

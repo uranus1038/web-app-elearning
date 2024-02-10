@@ -11,11 +11,11 @@ export const TableLeaning: FC = () => {
         <div className="lg:grid lg:grid-cols-11 lg:gap-2 w-full h-full mx-auto ">
             <div className='col-start-4 col-span-5 h-full '>
                 <div className='dark:text-white text-gray-500 text-sm'>
-<div className='text-center w-full text-sm  font-semibold p-3'>
-ตารางเรียน 2566 ศรช.วังทองเฮ้าส์ กศน.เขตบึงกุ่ม
-</div>
+                    <div className='text-center w-full text-sm  font-semibold p-3'>
+                        ตารางเรียน 2566 ศรช.วังทองเฮ้าส์ กศน.เขตบึงกุ่ม
+                    </div>
                     <div className="overflow-x-auto mb-16 ">
-                       
+
                         <table className="table-auto">
                             <thead>
                                 <tr>
