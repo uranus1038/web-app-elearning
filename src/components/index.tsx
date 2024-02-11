@@ -1,11 +1,13 @@
-import {  FC } from 'react'
+import { FC } from 'react'
 import { NavbarMain } from './navbar_main'
 'use client';
 import { Button } from 'flowbite-react';
 import { BottomNavigation } from './bottomNavigation';
 import { NavigateFunction, useNavigate, Link } from 'react-router-dom';
+import { Show } from './show';
 export const Index: FC = () => {
     const LinkRoute: NavigateFunction = useNavigate();
+
     return (
         <div className="lg:grid lg:grid-cols-11 lg:gap-2 w-full h-full mx-auto fade-In">
             <div className='col-start-4 col-span-5 h-full '>
@@ -18,8 +20,7 @@ export const Index: FC = () => {
                         onClick={() => {
                             LinkRoute("/");
                         }} gradientDuoTone={"purpleToBlue"} size={"md"} className='w-full ms-3 me-3'>การเรียนรู้</Button>
-                    <Button onClick={()=>
-                    {
+                    <Button onClick={() => {
 
                         LinkRoute("/user/test");
                     }
@@ -43,9 +44,9 @@ export const Index: FC = () => {
 
                     </div>
                 </div>
+                <Show />
                 <BottomNavigation />
             </div>
         </div >
     )
 }
-

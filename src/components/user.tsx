@@ -131,10 +131,10 @@ export const User: FC = () => {
                             </div>
                         </div>
                     </Link>
-                    <div className="w-full mb-1 block  p-3 bg-gray-200 rounded-b-lg ">
+                    <div className="w-full mb-1 block  p-3 bg-gray-100 dark:bg-gray-700  hover:bg-gray-200  dark:hover:bg-gray-900 rounded-b-lg ">
                         <div className="flex justify-between items-center">
                             <div>
-                                <div className=" text-md font-semibold tracking-tight text-gray-900 dark:text-white">ให้คะแนน<span className='text-xs ms-1 font-normal'>*ยังไม่เปิดใช้งาน</span> </div>
+                                <div className="  text-md font-semibold tracking-tight text-gray-900 dark:text-white">ให้คะแนน<span className='text-xs ms-1 font-normal'>*ยังไม่เปิดใช้งาน</span> </div>
                             </div>
                             <div>
                                 <FaStar className='text-gray-400 dark:text-white' />

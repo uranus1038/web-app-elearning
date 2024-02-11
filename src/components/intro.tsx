@@ -4,7 +4,7 @@ export const Intro: FC = () => {
         <div className="lg:grid lg:grid-cols-11 lg:gap-2   ">
             <div className='col-start-5 col-span-3 h-full  '>
                 <div className='flex justify-center items-center h-screen '>
-                    <div className='text-3xl font-medium slide-up dark:text-white text-gray-950 font-info'>ศกช.วังทองเฮาร์</div>
+                    <div className='text-2xl font-medium slide-up dark:text-white text-gray-950 font-info'>ศกช.วังทองเฮาร์</div>
                 </div>
             </div>
         </div>
