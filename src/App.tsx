@@ -40,7 +40,6 @@ import { Test } from './components/test';
 import { Test1 } from './components/test1';
 import { Classroom } from './components/classRoom';
 const App: FC = () => {
-  const [count, setCount] = useState(0)
   const [isFadeIndex, isSetFadeIndex] = useState(false)
   useEffect(() => {
     isSetFadeIndex(false);

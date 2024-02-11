@@ -1,5 +1,5 @@
 {
-  "homepage": "https://uranus1038.github.io/",
+  "homepage": "https://uranus1038.github.io/web-app-elearning",
   "name": "web-app-elearning-front",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +9,8 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "deploy":"npm run build",
+    "push":"gh-pages -d dist"
   },
   "dependencies": {
     "@fullcalendar/core": "^6.1.10",

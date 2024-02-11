@@ -1,21 +1,15 @@
 import { useState, FC, ChangeEvent, useEffect } from 'react'
-import img from '../assets/img/community.png'
 import Swal from 'sweetalert2';
-import { useParams, useNavigate, NavigateFunction } from 'react-router-dom';
+import {  useNavigate, NavigateFunction } from 'react-router-dom';
 'use client';
 import { Button, Navbar, TextInput, DarkThemeToggle, Flowbite } from 'flowbite-react';
 import {
-    FaAngleRight,
-    FaClock,
     FaRegIdCard,
-    FaKey,
-    FaHashtag,
     FaAngleLeft,
     FaPaperPlane,
     FaArrowRightFromBracket
 } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
-import { NavbarUser } from './navbar_user';
 
 export const Accout: FC = () => {
     const LinkRoute: NavigateFunction = useNavigate();
@@ -37,7 +31,6 @@ export const Accout: FC = () => {
        
         isAlert();
     }, [user])
-    const { id } = useParams();
     const setNewUser = (event: ChangeEvent<HTMLInputElement>) => {
         setUser(event.target.value);
     }

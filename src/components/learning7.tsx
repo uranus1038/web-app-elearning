@@ -1,24 +1,18 @@
-import { useState, FC, useEffect } from 'react'
-import { NavbarMain } from './navbar_main'
+import {  FC} from 'react'
 'use client';
 import {
     FaPlay,
     FaAngleLeft,
     FaBookmark,
     FaBarsStaggered,
-    FaLink,
     FaEye,
     FaHashtag
 } from 'react-icons/fa6'
-import { Button, Badge, Accordion, Timeline, Navbar, Flowbite, DarkThemeToggle } from 'flowbite-react';
+import {  Accordion ,Navbar, Flowbite, DarkThemeToggle } from 'flowbite-react';
 import { BottomNavigation } from './bottomNavigation';
-import img9 from '../assets/img/customer.png'
-import img8 from '../assets/img/icegif-1166.gif'
-import { Link, useNavigate, NavigateFunction, useParams } from 'react-router-dom';
-import { HiArrowNarrowRight } from 'react-icons/hi';
+import { Link} from 'react-router-dom';
 
 export const Learning7: FC = () => {
-    const [count, setCount] = useState(false)
 
     return (
         <div className="lg:grid lg:grid-cols-11 lg:gap-2 w-full h-full mx-auto fade-In">
@@ -45,8 +39,8 @@ export const Learning7: FC = () => {
                     <div>
                         <div className='h-full w-full p-3 mb-16'>
                             <div className='relative'>
-                                <img src={img8} alt="img 2" className='h-72 wrap-img absolute rounded-t-lg w-full object-cover ' />
-                                <img src={img9} alt="img 1" className='h-72  rounded-t-lg w-full object-cover object-center ' />
+                                <img src={"https://cdn.discordapp.com/attachments/1206017480901005336/1206023514096672888/icegif-1166.gif?ex=65da7fec&is=65c80aec&hm=8f3a03448815c4ceac954cfa53649e2b031dd9a3ad2938f6e88d70294977c9a1&"} alt="img 2" className='h-72 wrap-img absolute rounded-t-lg w-full object-cover ' />
+                                <img src={"https://cdn.discordapp.com/attachments/1206017480901005336/1206022425314201710/customer.png?ex=65da7ee9&is=65c809e9&hm=fb9a14f166e4269ed7cdabd0df783cb2a978e9e1986c46e02b0f658d8a014c7c&"} alt="img 1" className='h-72  rounded-t-lg w-full object-cover object-center ' />
                             </div>
                             <div className='w-full border border-drak-400  dark:border-slate-700 p-3 flex justify-center gap-4 mt-1'>
                                 <div><FaBookmark className='inline-flex w-4 h-4  me-1 text-gray-500 dark:text-gray-400 ' /><span className='text-xs font-semibold text-gray-500 dark:text-gray-400 '>52</span></div>

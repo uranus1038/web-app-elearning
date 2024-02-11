@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: SOV_LookYing;
+  src: url(./assets/SOV_LookYing.woff);
+}
+.font-info
+{
+  font-family: SOV_LookYing;
+}
+body
+{
+  font-family: 'Noto Serif Thai', serif;
+}
 .slide-up {
   animation: slideUp 3.0s ease-in-out forwards;
 }

@@ -1,19 +1,13 @@
-import { useState, FC, useEffect } from 'react'
-import { NavbarMain } from './navbar_main'
+import {  FC } from 'react'
 'use client';
 import {
     FaCalendar,
     
 } from 'react-icons/fa6'
-import { Button, Badge, Accordion, Timeline, Navbar, Flowbite, DarkThemeToggle } from 'flowbite-react';
+import {  Accordion } from 'flowbite-react';
 import { BottomNavigation } from './bottomNavigation';
-import img9 from '../assets/img/commu.avif'
-import img8 from '../assets/img/icegif-1166.gif'
-import { Link, useNavigate, NavigateFunction, useParams } from 'react-router-dom';
-import { HiArrowNarrowRight } from 'react-icons/hi';
 
 export const Classroom: FC = () => {
-    const [count, setCount] = useState(false)
 
     return (
         <div className="lg:grid lg:grid-cols-11 lg:gap-2 w-full h-full mx-auto fade-In">

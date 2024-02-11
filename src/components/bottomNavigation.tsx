@@ -1,4 +1,4 @@
-import { useState, FC } from 'react'
+import { FC } from 'react'
 import {
     FaCalendar,
     FaHouse,
@@ -7,7 +7,6 @@ import {
 } from 'react-icons/fa6'
 import { Link } from 'react-router-dom';
 export const BottomNavigation: FC = () => {
-    const [count, setCount] = useState(0)
     return (
         <div className="fixed bottom-0 left-0 z-40 w-full h-12 bg-white  dark:bg-gray-800">
             <div className="grid h-full max-w-lg grid-cols-4 mx-auto font-medium">

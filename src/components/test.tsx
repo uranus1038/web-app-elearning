@@ -3,19 +3,11 @@ import { NavbarMain } from './navbar_main'
 'use client';
 import { Button, Badge, Modal , Table } from 'flowbite-react';
 import { BottomNavigation } from './bottomNavigation';
-import Swal from 'sweetalert2';
-
-import img1 from '../assets/img/wang.jpg'
-import img2 from '../assets/img/child.jpg'
-import img3 from '../assets/img/AID.jpg'
-import img4 from '../assets/img/tiger.jpg'
-import img9 from '../assets/img/9.jpg'
-import { Link, useNavigate, NavigateFunction } from 'react-router-dom';
+import {  useNavigate, NavigateFunction } from 'react-router-dom';
 import {
     GoTriangleUp
 } from 'react-icons/go'
 export const Test: FC = () => {
-    const [count, setCount] = useState(0)
     const LinkRoute: NavigateFunction = useNavigate();
     const [openModal, setOpenModal] = useState(false);
     return (
@@ -34,7 +26,7 @@ export const Test: FC = () => {
                 <div className='sm:mb-12'>
                     <div className='grid grid-cols-3 gap-1 w-full h-full  p-3 slide-move-up-1'>
                         <a onClick={() => setOpenModal(true)} className='start-col-1 relative '>
-                            <img src={img9} alt="img 1" loading="lazy" className=' rounded-lg  sm:h-full h-60 w-full sm:object-fill object-cover object-top sm:object-center' />
+                            <img src={"https://cdn.discordapp.com/attachments/1206017480901005336/1206022416497901678/9.jpg?ex=65da7ee6&is=65c809e6&hm=06b45ea4c15c30f5d00a64b283ea7e80b39488fbeac27dba03fd20bf899f8e2d&"} alt="img 1" loading="lazy" className=' rounded-lg  sm:h-full h-60 w-full sm:object-fill object-cover object-top sm:object-center' />
                             <div className='absolute w-full text-center h-20 bottom-0 rounded-lg bg-gradient-to-t from-yellow-200 font-semibold text-white'>
 
                             </div>

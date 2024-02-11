@@ -1,8 +1,4 @@
-import { useState, FC } from 'react'
-import img from '../assets/img/king.jpg'
-import img1 from '../assets/img/wang.jpg'
-import img2 from '../assets/img/child.jpg'
-import { useParams } from 'react-router-dom';
+import { FC } from 'react'
 'use client';
 import {
     FaAngleRight,
@@ -12,8 +8,6 @@ import {
 import { NavbarUser } from './navbar_user';
 import { Link } from 'react-router-dom';
 export const User: FC = () => {
-    const [count, setCount] = useState(0)
-    const { id } = useParams();
     const storedObjectString = localStorage.getItem('userData');
     if (storedObjectString) {
         var myObject = JSON.parse(storedObjectString);
@@ -64,19 +58,19 @@ export const User: FC = () => {
                     </Link>
                     <div className='w-full   p-3 text-lg font-semibold tracking-tight text-gray-900 dark:text-white'>แจ้งเตือนข่าวสารกิจกรรม</div>
                     <Link to={'/activity/1'} className='w-full relative'>
-                        <img src={img} alt="img 1" loading="lazy" className=' start-col-4 mb-1 rounded-lg  h-28 w-full  object-cover object-left-top  brightness-50' />
+                        <img src={"https://cdn.discordapp.com/attachments/1206017480901005336/1206023515107754075/king.jpg?ex=65da7fec&is=65c80aec&hm=9fedcd14b9d48e16ffdfaa57f717a7da1f847442ef30cef13ff3bda3ecc31dfb&"} alt="img 1" loading="lazy" className=' start-col-4 mb-1 rounded-lg  h-28 w-full  object-cover object-left-top  brightness-50' />
                         <span className='absolute  top-3 left-4 bg-red-500 text-white w-24  text-center rounded-md  font-bold text-xs'><FaClock className='inline-block me-1 w-2 h-2' />กิจกรรมใหม่</span>
                         <span className='absolute  top-9 left-4  text-white max-w-sm rounded-md p-1 font-bold text-sm '>โครงการส่งเสริมการเรียนรู้ตามหลักปรัชญาของเศรษฐกิจพอเพียง</span>
                         <span className='absolute  top-20 left-4  text-gray-300  max-w-sm   rounded-md p-1 font-bold text-xs'>ลงเมื่อวันที่ 18 มกราคม 2567 เวล 14:08</span>
                     </Link>
                     <Link to={'/activity/2'} className='w-full relative'>
-                        <img src={img1} alt="img 2" loading="lazy" className='slide-down-1 start-col-4 mb-1 rounded-lg  h-28 w-full object-cover brightness-50' />
+                        <img src={"https://media.discordapp.net/attachments/1206017480901005336/1206023599006421052/wang.jpg?ex=65da8000&is=65c80b00&hm=e793d388b17573bfb2307e5ac9cd403150df56c295d97a9978e8b2b5584b49a2&=&format=webp"} alt="img 2" loading="lazy" className='slide-down-1 start-col-4 mb-1 rounded-lg  h-28 w-full object-cover brightness-50' />
                         <span className='absolute  top-3 left-4 bg-red-500 text-white w-24 slide-down-1  text-center rounded-md  font-bold text-xs'><FaClock className='inline-block me-1 w-2 h-2' />กิจกรรมใหม่</span>
                         <span className='absolute  top-9 left-4  text-white max-w-sm rounded-md slide-down-1 p-1 font-bold text-sm '>โครงการประวัติศาสตร์ชาติไทยและบุญคุณพระมหากษัตริย์</span>
                         <span className='absolute  top-20 left-4  text-gray-300  max-w-sm slide-down-1  rounded-md p-1 font-bold text-xs'>ลงเมื่อวันที่ 20 มกราคม 2567 เวล 07:08</span>
                     </Link>
                     <Link to={'/activity/3'} className='w-full relative'>
-                        <img src={img2} alt="img 3" loading="lazy" className='slide-down-2 start-col-4 mb-1 rounded-lg  h-28 w-full  object-cover brightness-50' />
+                        <img src={"https://cdn.discordapp.com/attachments/1206017480901005336/1206022417516863488/child.jpg?ex=65da7ee7&is=65c809e7&hm=8cee4c6a704c7d6adadc56536217c0ec425361e594a0c83adc9c67dafc61b087&"} alt="img 3" loading="lazy" className='slide-down-2 start-col-4 mb-1 rounded-lg  h-28 w-full  object-cover brightness-50' />
                         <span className='absolute  top-3 left-4 bg-red-500 text-white w-24 slide-down-2  text-center rounded-md  font-bold text-xs'><FaClock className='inline-block me-1 w-2 h-2' />กิจกรรมใหม่</span>
                         <span className='absolute  top-9 left-4  text-white max-w-sm rounded-md p-1 slide-down-2 font-bold text-sm '>วันเด็กแห่งชาติ</span>
                         <span className='absolute  top-20 left-4  text-gray-300  max-w-sm slide-down-2  rounded-md p-1 font-bold text-xs'>ลงเมื่อวันที่ 28 ธันวาคม 2566 เวล 06:00</span>

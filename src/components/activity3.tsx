@@ -1,25 +1,17 @@
-import { useState, FC, useEffect } from 'react'
-import { NavbarMain } from './navbar_main'
+import {  FC } from 'react'
 'use client';
 import {
-    FaCalendar,
     FaAngleLeft,
     FaHeart,
-    FaBookmark,
     FaBarsStaggered,
-    FaLink,
     FaEye,
     FaHashtag
 } from 'react-icons/fa6'
-import { Button, Badge, Accordion, Timeline, Navbar, Flowbite, DarkThemeToggle } from 'flowbite-react';
+import {  Accordion, Timeline, Navbar, Flowbite, DarkThemeToggle } from 'flowbite-react';
 import { BottomNavigation } from './bottomNavigation';
-import img9 from '../assets/img/child.jpg'
-import img8 from '../assets/img/icegif-1166.gif'
-import { Link, useNavigate, NavigateFunction, useParams } from 'react-router-dom';
-import { HiArrowNarrowRight } from 'react-icons/hi';
+import { Link } from 'react-router-dom';
 
 export const ActivityInfo3: FC = () => {
-    const [count, setCount] = useState(false)
 
     return (
         <div className="lg:grid lg:grid-cols-11 lg:gap-2 w-full h-full mx-auto fade-In">
@@ -47,8 +39,8 @@ export const ActivityInfo3: FC = () => {
 
                         <div className='h-full w-full p-3 mb-16'>
                             <div className='relative '>
-                                <img src={img8} alt="img 2" className='h-72 wrap-img absolute rounded-t-lg w-full object-cover ' />
-                                <img src={img9} alt="img 1" className='h-72  rounded-t-lg w-full object-cover ' />
+                                <img src={"https://media.discordapp.net/attachments/1206017480901005336/1206023514096672888/icegif-1166.gif?ex=65da7fec&is=65c80aec&hm=8f3a03448815c4ceac954cfa53649e2b031dd9a3ad2938f6e88d70294977c9a1&=&width=664&height=498"} alt="img 2" className='h-72 wrap-img absolute rounded-t-lg w-full object-cover ' />
+                                <img src={"https://media.discordapp.net/attachments/1206017480901005336/1206022417516863488/child.jpg?ex=65da7ee7&is=65c809e7&hm=8cee4c6a704c7d6adadc56536217c0ec425361e594a0c83adc9c67dafc61b087&=&format=webp&width=278&height=498"} alt="img 1" className='h-72  rounded-t-lg w-full object-cover ' />
                             </div>
                             <div className='w-full border border-drak-400  dark:border-slate-700 p-3 flex justify-center gap-4 mt-1'>
                                 <div><FaHeart className='inline-flex w-4 h-4  me-1 text-gray-500 dark:text-gray-400 ' /><span className='text-xs font-semibold text-gray-500 dark:text-gray-400 '>999k</span></div>

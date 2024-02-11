@@ -6,7 +6,6 @@ import {
     FaRegIdCard 
 } from 'react-icons/fa6'
 export const Login: FC = () => {
-    const [count, setCount] = useState(0)
     const [openModal, setOpenModal] = useState(false);
     return (
         <div className=" ">

@@ -1,12 +1,7 @@
-import { useState, FC } from 'react'
-import { NavbarMain } from './navbar_main'
+import {  FC } from 'react'
 'use client';
-import { Table } from 'flowbite-react';
 import { BottomNavigation } from './bottomNavigation';
-import { NavigateFunction, useNavigate } from 'react-router-dom';
 export const TableLeaning: FC = () => {
-    const [count, setCount] = useState<Number>(0)
-    const LinkRoute: NavigateFunction = useNavigate();
     return (<div>
         <div className="lg:grid lg:grid-cols-11 lg:gap-2 w-full h-full mx-auto ">
             <div className='col-start-4 col-span-5 h-full '>

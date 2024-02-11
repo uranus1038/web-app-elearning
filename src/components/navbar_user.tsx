@@ -1,4 +1,4 @@
-import { useState, FC } from 'react'
+import {  FC } from 'react'
 'use client';
 import { Navbar, DarkThemeToggle, Flowbite } from 'flowbite-react';
 import {
@@ -6,7 +6,6 @@ import {
 } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 export const NavbarUser: FC = () => {
-    const [count, setCount] = useState(0)
     return (
         <Navbar fluid className='sticky top-0 z-40'>
             <Navbar.Brand >

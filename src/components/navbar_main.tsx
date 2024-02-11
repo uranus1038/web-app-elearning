@@ -1,13 +1,12 @@
-import { useState, FC } from 'react'
+import {  FC } from 'react'
 'use client';
-import { Navbar, DarkThemeToggle, Flowbite } from 'flowbite-react';
+import { Navbar} from 'flowbite-react';
 import {
     FaMagnifyingGlass,
     FaBarsStaggered
 } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 export const NavbarMain: FC = () => {
-    const [count, setCount] = useState(0)
     return (
         <Navbar fluid className='pt-4 pb-4'>
             <Navbar.Brand >
