@@ -1,4 +1,4 @@
-import {  FC } from 'react'
+import { FC } from 'react'
 'use client';
 import {
     FaAngleLeft,
@@ -8,7 +8,7 @@ import {
     FaEye,
     FaHashtag
 } from 'react-icons/fa6'
-import {  Accordion, Navbar, Flowbite, DarkThemeToggle } from 'flowbite-react';
+import { Accordion, Navbar, Flowbite, DarkThemeToggle } from 'flowbite-react';
 import { BottomNavigation } from './bottomNavigation';
 import { Link } from 'react-router-dom';
 
@@ -38,8 +38,8 @@ export const Learning12: FC = () => {
                     <div>
                         <div className='h-full w-full p-3 mb-16'>
                             <div className='relative'>
-                                <img src={"https://cdn.discordapp.com/attachments/1206017480901005336/1206023514096672888/icegif-1166.gif?ex=65da7fec&is=65c80aec&hm=8f3a03448815c4ceac954cfa53649e2b031dd9a3ad2938f6e88d70294977c9a1&"} alt="img 2" className='h-72 wrap-img absolute rounded-t-lg w-full object-cover ' />
-                                <img src={"https://cdn.discordapp.com/attachments/1206017480901005336/1206023598092058655/tech.gif?ex=65da8000&is=65c80b00&hm=816b7f16b875a54b808a5ca3806c218f7cc34267ebd3a93324077e6ad7c6c62d&"} alt="img 1" className='h-72  rounded-t-lg w-full object-cover object-top ' />
+                                <img src={"https://i.imgur.com/hvQrohA.gif"} alt="img 2" className='h-72 wrap-img absolute rounded-t-lg w-full object-cover ' />
+                                <img src={"https://i.imgur.com/jL3cxSo.gif"} alt="img 1" className='h-72  rounded-t-lg w-full object-cover object-top ' />
                             </div>
                             <div className='w-full border border-drak-400  dark:border-slate-700 p-3 flex justify-center gap-4 mt-1'>
                                 <div><FaBookmark className='inline-flex w-4 h-4  me-1 text-gray-500 dark:text-gray-400 ' /><span className='text-xs font-semibold text-gray-500 dark:text-gray-400 '>0</span></div>

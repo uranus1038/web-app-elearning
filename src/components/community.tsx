@@ -13,8 +13,8 @@ export const Community: FC = () => {
                     <div>
                         <div className='h-full w-full p-3 mb-16'>
                             <div className='relative'>
-                                <img src={"https://media.discordapp.net/attachments/1206017480901005336/1206023514096672888/icegif-1166.gif?ex=65da7fec&is=65c80aec&hm=8f3a03448815c4ceac954cfa53649e2b031dd9a3ad2938f6e88d70294977c9a1&=&width=664&height=498"} alt="img 2" className='h-72 wrap-img absolute rounded-t-lg w-full object-cover ' />
-                                <img src={"https://media.discordapp.net/attachments/1206017480901005336/1206023113985368094/commu.png?ex=65da7f8d&is=65c80a8d&hm=eaa691e0c50ebe914731ff9d89aa60b5b42e5fdf9d621dd456577d138c293cf2&=&format=webp&quality=lossless"} alt="img 1" className='h-72  rounded-t-lg w-full object-cover object-center ' />
+                                <img src={"https://i.imgur.com/hvQrohA.gif"} alt="img 2" className='h-72 wrap-img absolute rounded-t-lg w-full object-cover ' />
+                                <img src={"https://i.imgur.com/Evrayc1.png"} alt="img 1" className='h-72  rounded-t-lg w-full object-cover object-center ' />
                             </div>
                             <div className='w-full border border-drak-400 font-bold text-gray-500  dark:text-gray-400  dark:border-slate-700 p-3 flex justify-center gap-4 mt-1'>
                                 ชุมชนการเรียนรู้

@@ -26,7 +26,7 @@ export const Bookmark: FC = () => {
                         </Flowbite>
                     </div>
                 </Navbar>
-                <div className='p-3 flex justify-center'>
+                <div className='p-3 flex justify-center dark:text-white'>
                    <div>ไม่พบข้อมูล</div>
                 </div>
             </div>

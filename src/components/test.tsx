@@ -26,7 +26,7 @@ export const Test: FC = () => {
                 <div className='sm:mb-12'>
                     <div className='grid grid-cols-3 gap-1 w-full h-full  p-3 slide-move-up-1'>
                         <a onClick={() => setOpenModal(true)} className='start-col-1 relative '>
-                            <img src={"https://cdn.discordapp.com/attachments/1206017480901005336/1206022416497901678/9.jpg?ex=65da7ee6&is=65c809e6&hm=06b45ea4c15c30f5d00a64b283ea7e80b39488fbeac27dba03fd20bf899f8e2d&"} alt="img 1" loading="lazy" className=' rounded-lg  sm:h-full h-60 w-full sm:object-fill object-cover object-top sm:object-center' />
+                            <img src={"https://i.imgur.com/9t75W3U.jpg"} alt="img 1" loading="lazy" className=' rounded-lg  sm:h-full h-60 w-full sm:object-fill object-cover object-top sm:object-center' />
                             <div className='absolute w-full text-center h-20 bottom-0 rounded-lg bg-gradient-to-t from-yellow-200 font-semibold text-white'>
 
                             </div>

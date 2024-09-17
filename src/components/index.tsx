@@ -29,19 +29,18 @@ export const Index: FC = () => {
                 <div className='sm:mb-12 mt-2'>
                     <div className='grid grid-cols-3 gap-1 w-full h-full  p-3 '>
                         <Link to={"/learning"} className="slide-move-up-1 start-col-1 col-span-3">
-                            <img src={"https://media.discordapp.net/attachments/1206017480901005336/1206023516357664838/learnAnyWhere.png?ex=65da7fed&is=65c80aed&hm=a3a00ef715a9ad305421ba5de7bb3cccfe378c6698cc15ec3b16a46d57a54861&=&format=webp&quality=lossless&width=642&height=498"} alt="img 1" loading="lazy" className=' rounded-lg  sm:h-full h-auto w-full sm:object-fill object-cover' />
+                            <img src={"https://i.imgur.com/eXMEBEU.png"} alt="img 1" loading="lazy" className=' rounded-lg  sm:h-full h-auto w-full sm:object-fill object-cover' />
                         </Link>
                         <Link to={"/storage/learning"} className="slide-move-up-1 start-col-2">
 
-                            <img src={"https://media.discordapp.net/attachments/1206017480901005336/1206023516021850122/leaning.png?ex=65da7fed&is=65c80aed&hm=db26c6b118478a352ea222e198e8ee9c46f7d1ea67217f7aa3f2e864ac287a0c&=&format=webp&quality=lossless&width=258&height=498"} alt="img 2" loading="lazy" className='slide-move-up-2 start-col-1 rounded-lg sm:h-full h-60 w-full sm:object-fill object-cover' />
+                            <img src={"https://i.imgur.com/b99GxIC.png"} alt="img 2" loading="lazy" className='slide-move-up-2 start-col-1 rounded-lg sm:h-full h-60 w-full sm:object-fill object-cover' />
                         </Link>
                         <Link to={"/classroom"} className="slide-move-up-1 start-col-2">
-                            <img src={"https://media.discordapp.net/attachments/1206017480901005336/1206022418347597834/classRoom.png?ex=65da7ee7&is=65c809e7&hm=b3015d3753fca6027495850e2ab3f2261f9ad0fd5301bf066f3a4fcb05ca577d&=&format=webp&quality=lossless&width=253&height=498"} alt="img 3" loading="lazy" className='slide-move-up-3 start-col-2 rounded-lg sm:h-full h-60 w-full sm:object-fill object-cover' />
+                            <img src={"https://i.imgur.com/qmcF9uw.png"} alt="img 3" loading="lazy" className='slide-move-up-3 start-col-2 rounded-lg sm:h-full h-60 w-full sm:object-fill object-cover' />
                         </Link>
                         <Link to={"/community"} className="slide-move-up-1 start-col-3">
-                            <img src={"https://media.discordapp.net/attachments/1206017480901005336/1206022420004339762/community.png?ex=65da7ee7&is=65c809e7&hm=d3b1e62bbc219ba805d23a6dc2a1b66e2125c118b90ec308e884fcfa80cd02a5&=&format=webp&quality=lossless&width=257&height=498"} alt="img 4" loading="lazy" className='slide-move-up-4 start-col-3 rounded-lg sm:h-full h-60 w-full sm:object-fill object-cover' />
+                            <img src={"https://i.imgur.com/J7LhzOC.png"} alt="img 4" loading="lazy" className='slide-move-up-4 start-col-3 rounded-lg sm:h-full h-60 w-full sm:object-fill object-cover' />
                         </Link>
-
                     </div>
                 </div>
                 <Show />

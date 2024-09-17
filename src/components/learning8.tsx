@@ -37,8 +37,8 @@ export const Learning8: FC = () => {
                     <div>
                         <div className='h-full w-full p-3 mb-16'>
                             <div className='relative'>
-                                <img src={"https://cdn.discordapp.com/attachments/1206017480901005336/1206023514096672888/icegif-1166.gif?ex=65da7fec&is=65c80aec&hm=8f3a03448815c4ceac954cfa53649e2b031dd9a3ad2938f6e88d70294977c9a1&"} alt="img 2" className='h-72 wrap-img absolute rounded-t-lg w-full object-cover ' />
-                                <img src={"https://cdn.discordapp.com/attachments/1206017480901005336/1206023516655321128/math.jpg?ex=65da7fed&is=65c80aed&hm=90f2e6642d3004ef435c8cb0334a50a1aeb0522e3bd88962307892a176ac7803&"} alt="img 1" className='h-72  rounded-t-lg w-full object-cover object-center ' />
+                            <img src={"https://i.imgur.com/hvQrohA.gif"} alt="img 2" className='h-72 wrap-img absolute rounded-t-lg w-full object-cover ' />
+                                <img src={"https://i.imgur.com/nG3dmo7.jpg"} alt="img 1" className='h-72  rounded-t-lg w-full object-cover object-center ' />
                             </div>
                             <div className='w-full border border-drak-400  dark:border-slate-700 p-3 flex justify-center gap-4 mt-1'>
                                 <div><FaBookmark className='inline-flex w-4 h-4  me-1 text-gray-500 dark:text-gray-400 ' /><span className='text-xs font-semibold text-gray-500 dark:text-gray-400 '>128</span></div>

@@ -47,7 +47,6 @@ const App: FC = () => {
       isSetFadeIndex(true);
     }, 3300)
   }, []);
-
   return (
     <div className=''>
 

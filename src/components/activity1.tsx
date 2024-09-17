@@ -39,8 +39,8 @@ export const ActivityInfo1: FC = () => {
 
                         <div className='h-full w-full p-3 mb-16'>
                             <div className='relative'>
-                                <img src={"https://media.discordapp.net/attachments/1206017480901005336/1206023514096672888/icegif-1166.gif?ex=65da7fec&is=65c80aec&hm=8f3a03448815c4ceac954cfa53649e2b031dd9a3ad2938f6e88d70294977c9a1&=&width=664&height=498"} alt="img 2"  className='h-72 wrap-img absolute rounded-t-lg w-full object-cover ' />
-                                <img src={"https://media.discordapp.net/attachments/1206017480901005336/1206022416497901678/9.jpg?ex=65da7ee6&is=65c809e6&hm=06b45ea4c15c30f5d00a64b283ea7e80b39488fbeac27dba03fd20bf899f8e2d&=&format=webp&width=398&height=498"} alt="img 1" className='h-72  rounded-t-lg w-full object-cover object-top' />
+                                <img src={"https://i.imgur.com/hvQrohA.gif"} alt="img 2"  className='h-72 wrap-img absolute rounded-t-lg w-full object-cover ' />
+                                <img src={"https://i.imgur.com/NIaw4Sx.jpg"} alt="img 1" className='h-72  rounded-t-lg w-full object-cover object-top' />
                             </div>
                             <div className='w-full border border-drak-400  dark:border-slate-700 p-3 flex justify-center gap-4 mt-1'>
                                 <div><FaHeart className='inline-flex w-4 h-4  me-1 text-gray-500 dark:text-gray-400 ' /><span className='text-xs font-semibold text-gray-500 dark:text-gray-400 '>99k</span></div>

@@ -20,7 +20,7 @@ export const Show: FC = () => {
 
                                 <div className='col-start-4   col-span-5 h-full  '>
                                     <div className='justify-center items-center  flex h-72 w-full'>
-                                        <img className=' slide-move-up-login -top-96 left-0' src="https://media.discordapp.net/attachments/1206017480901005336/1206059943468212284/king1-1.png?ex=65daa1da&is=65c82cda&hm=955f89ff1c57dec96a068c51e2b6df962db2847511df61ada85038891c000ca7&=&format=webp&quality=lossless&width=494&height=498" alt="" />
+                                        <img className=' slide-move-up-login -top-96 left-0' src="https://i.imgur.com/Mr8nUSB.png" alt="" />
                                     </div>
                                     <div className='h-60 flex rounded-t-2xl justify-center items-center flex-wrap w-full bg-white dark:bg-gray-800 shadow slide-move-up-login   h-48 '>
                                         <div className='w-full p-3 text-center'>

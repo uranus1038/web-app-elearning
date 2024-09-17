@@ -183,8 +183,8 @@ export const Test1: FC = () => {
                                 ?
                                 <div className='h-full w-full mb-16 p-3'>
                                     <div className='relative'>
-                                        <img src={"https://cdn.discordapp.com/attachments/1206017480901005336/1206023513824301137/happy.png?ex=65da7fec&is=65c80aec&hm=f61b30f848b6b8b62160aa1ab4c540aa0fff13390fed8d1d97e389b0e84c39ec&"} alt="img 1" className='h-72  rounded-t-lg w-full object-cover object-center ' />
-                                        <img src={"https://cdn.discordapp.com/attachments/1206017480901005336/1206023514096672888/icegif-1166.gif?ex=65da7fec&is=65c80aec&hm=8f3a03448815c4ceac954cfa53649e2b031dd9a3ad2938f6e88d70294977c9a1&"} alt="img 2" className='h-72 top-0 bottom-0   animate-pulse absolute rounded-t-lg w-full object-cover ' />
+                                        <img src={"https://i.imgur.com/VBWbGiG.png"} alt="img 1" className='h-72  rounded-t-lg w-full object-cover object-center ' />
+                                        <img src={"https://i.imgur.com/hvQrohA.gif"} alt="img 2" className='h-72 top-0 bottom-0   animate-pulse absolute rounded-t-lg w-full object-cover ' />
                                     </div>
                                     <div className='w-full  rounded-md   p-3 flex justify-center gap-4 mt-1'>
                                         <p className="mb-2  text-gray-700 font-medium  z-50 text-3xl dark:text-gray-400 text-center w-full">
